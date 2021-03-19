@@ -32,7 +32,7 @@ Have you made something cool MindSpace and feel like sharing it? You can either 
 
 A Discord server was made for issues, support, comments, recommendations, etc.
 
-[<iframe src="https://discord.com/widget?id=822554959475900458&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>](https://discord.gg/ygFhn2GUKP)
+<iframe src="https://discord.com/widget?id=822554959475900458&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
 Any issues can be expressed by:
 
