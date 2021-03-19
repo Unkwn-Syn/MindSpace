@@ -26,7 +26,7 @@ MindSpace is a highly customizable theme for Discord (with [BetterDiscord](https
 
 ## Support
 
-A Discord server was made for issues, support, comments, recommendations, etc.
+We have a Discord Server for issues, support, comments, recommendations, etc.
 
 [<img src="https://canary.discordapp.com/api/guilds/822554959475900458/widget.png?style=banner3">](https://discord.gg/ygFhn2GUKP)
 
