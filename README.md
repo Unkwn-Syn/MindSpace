@@ -4,7 +4,7 @@
 
 <p align="center">
     <a href="https://discord.gg/ygFhn2GUKP" alt="Get Support">
-        <img src="https://img.shields.io/discord/412794678791110664.svg?label=Support&logo=discord&style=flat-square&logoColor=%23ffffff&colorB=%237289DA" /></a>
+        <img src="https://img.shields.io/discord/822554959475900458.svg?label=Support&logo=discord&style=flat-square&logoColor=%23ffffff&colorB=%237289DA" /></a>
     <a href="https://github.com/Unkwn-Syn/MindSpace/commits/main" alt="Latest Commit">
      <img src="https://img.shields.io/github/last-commit/unkwn-syn/MindSpace.svg?logo=GitHub&style=flat-square" /></a>
 </p>
