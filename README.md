@@ -8,7 +8,7 @@
     <a href="https://github.com/Unkwn-Syn/MindSpace/commits/main" alt="Latest Commit"></a>
 </p>
 
-MindSpace is a highly customizable theme for Discord (with [BetterDiscord](https://github.com/rauenzi/BetterDiscordApp/releases/latest)) allowing for a revitalized and fresh take on the Discord UI. Every part of the theme is customizable, from the background image to the scroll bar colors. The user has full control over the default configuration.
+MindSpace is a highly customizable theme for Discord (with [BetterDiscord](https://github.com/rauenzi/BetterDiscordApp/releases/latest)) Every part of the theme is customizable.
 
 ## Installation
 
@@ -24,10 +24,6 @@ MindSpace is a highly customizable theme for Discord (with [BetterDiscord](https
 
 * Usually it is installed in ` %AppData%\BetterDiscord\themes`, however for a custom installtion, the location can be found by going to User Settings in Discord > Themes > Open Theme Folder.
 
-## Contributing
-
-Have you made something cool MindSpace and feel like sharing it? You can either open an issue or just PM it to me on discord and we'll add it!
-
 ## Support
 
 A Discord server was made for issues, support, comments, recommendations, etc.
@@ -41,8 +37,6 @@ Any issues can be expressed by:
 * Messaging us on Discord Pwned Syn#0001 & mpikoul#3174
 
 ## Notes
-
-While the theme is Free and Open Source, it takes time to keep the theme up to date. If you enjoy the theme please consider supporting us to continue maintenance and development of it.
 
 In the appearance settings make sure **Dark** is selected.
 
