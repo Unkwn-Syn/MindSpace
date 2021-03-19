@@ -31,7 +31,7 @@ We have a Discord Server for issues, support, comments, recommendations, etc.
 
 [<img src="https://canary.discordapp.com/api/guilds/822554959475900458/widget.png?style=banner3">](https://discord.gg/ygFhn2GUKP)
 
-Any issues can be expressed by:
+Any issues & bugs can be explained by:
 
 * [Joining the Discord server](https://discord.gg/ygFhn2GUKP)
 * [Opening an issue on GitHub](https://github.com/Unkwn-Syn/MindSpace/issues)
