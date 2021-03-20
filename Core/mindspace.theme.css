@@ -161,9 +161,18 @@ display: none
     to {filter: hue-rotate(360deg);}
 }
 
-.profileBadge-2niAfJ {
-	 animation: negative 5s linear infinite;
+.profileBadgeHypeSquadOnlineHouse1-3rBtjf {
+    animation: negative 5s linear infinite;
 }
+
+.profileBadgeHypeSquadOnlineHouse2-2oU04B {
+   animation: negative 5s linear infinite;
+}
+
+.profileBadgeHypeSquadOnlineHouse3-1DoJkv {
+    animation: negative 5s linear infinite;
+}
+
 
 .ownerIcon-2NH9FM {
     animation: rainbow 5s linear infinite;
@@ -244,3 +253,27 @@ display: none
     .channelTabs-newTab:hover { background: var(--hover-accent); }
 
     .channelTabs-closeTab:hover { background: var(--hover-accent); }
+
+
+/* Accented Colors for Buttons */
+.buttons-3JBrkn .button-3AYNKb {
+	color: var(--background-accent-secondary);
+}
+
+.buttons-3JBrkn .button-3AYNKb .buttonWrapper-1ZmCpA:hover {
+	color: var(--hover-accent);
+}
+
+.attachButtonPlus-jWVFah {
+	fill: var(--background-accent-secondary);
+}
+
+.attachButton-2WznTc:hover .attachButtonPlus-jWVFah
+{fill:var(--hover-accent)}
+
+.toolbar-1t6TWx path {
+	color: var(--background-accent-secondary);
+}
+
+.toolbar-1t6TWx svg:hover path {
+	color: var(--hover-accent);
