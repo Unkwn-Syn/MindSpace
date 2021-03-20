@@ -181,6 +181,32 @@ display: none
     height: 5px;
 }
 
+.card-4s8auQ {
+    background: var(--background-alt);
+}
+
+.card-o7rAq- {
+    background: var(--background-alt);
+}
+
+.cardFolder-28dwxo {
+    background: var(--background-alt);
+}
+
+.headerSection-3-3lNF {
+    background: var(--background);
+}
+
+.cardContent-qqqwo8 {
+    background: var(--background-dark);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.sidebarRegionScroller-3MXcoP {
+    background: var(--background);
+}
+
 .sidebar-CFHs9e { 
     padding: 60px 0 35px 50px; width: 260px;
 }
