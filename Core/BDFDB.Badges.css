@@ -1,27 +1,4 @@
-    /* Pwned Syn#0001 */
-    [src*="785035260852830219"] + .header-23xsNx > .headerText-3Uvj1Y > span:first-child::after,
-    .avatar-3EQepX[data-user-id="785035260852830219"] + .headerInfo-30uryT > .nameTag-2IFDfL > .username-2b1r56::after,
-    [style*="785035260852830219"] + .usernameFont-23TX-h::after {
-    content:  "";
-    border-radius: var(--border-radius-main);
-    position: relative;
-    left: 2px;
-    background: url(https://cdn.discordapp.com/attachments/822555001724338206/822947126043869184/3942_DiscordStaff.png) center/80% no-repeat white;
-    }
-
-    /* Beta Testers */
-    [src*="691089753680117792"] + .header-23xsNx > .headerText-3Uvj1Y > span:first-child::after,
-    .avatar-3EQepX[data-user-id="691089753680117792"] + .headerInfo-30uryT > .nameTag-2IFDfL > .username-2b1r56::after,
-    [style*="691089753680117792"] + .usernameFont-23TX-h::after {
-    content:  "";
-    border-radius: var(--border-radius-main);
-    position: relative;
-    left: 2px;
-    background: url(https://cdn.discordapp.com/attachments/822555001724338206/822946621548396574/Beta_white.png) center/80% no-repeat white;
-    }
-
-
-    /* user here */
+ /* user here */
     [src*="insertID"] + .header-23xsNx > .headerText-3Uvj1Y > span:first-child::after,
     .avatar-3EQepX[data-user-id="insertID"] + .headerInfo-30uryT > .nameTag-2IFDfL > .username-2b1r56::after,
     [style*="insertID"] + .usernameFont-23TX-h::after {
