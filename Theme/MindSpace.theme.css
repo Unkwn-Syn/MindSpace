@@ -479,7 +479,6 @@ border-bottom-left-radius: 10px;
   #app-mount .divider-JfaTT5.hasContent-1cNJDh {
     margin: var(--message-spacing) 0 var(--message-spacing) 20px;
 }
-  
 
 #app-mount .scrollerContent-WzeG7R {
     background: transparent;
@@ -610,11 +609,6 @@ border-bottom-left-radius: 10px;
     z-index: 2147483647;
     background-color: rgb(245, 158, 28);
     animation: fadeInn 3s linear 10;
-}
-
-.button-1w5pas {
-    position: relative;
-    left: -65px;
 }
 
 /* Status */
