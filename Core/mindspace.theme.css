@@ -182,6 +182,11 @@ display: none
     animation: rainbow 5s linear infinite;
 }
 
+/* Blur */
+.backdrop-1wrmKB {
+  backdrop-filter: blur(7px);
+}
+
 /* User Backgrounds */
 .header-QKLPzZ .wrapper-3t9DeA::before {
   content:'';
