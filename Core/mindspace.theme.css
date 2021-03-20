@@ -14,46 +14,27 @@
  --bd-blue: #ce6837;
  --bd-blue-hover: #fe8a52;
  --bd-blue-active: #e37a22; 
+ --usrbg-modal-x-offset:-180px; /*Distance from the avatar container to the edge of the modal (x)*/
+ --usrbg-modal-y-offset:-65px; /*Distance from the avatar container to the edge of the modal (y)*/
+ --usrbg-modal-width:700px; /*Maximum width of modal*/
+ --usrbg-modal-height:600px; /*Maximum height of modal*/
 }
 
 .theme-dark {
-  --background-light: #22262e;
-  --background-light-alt: #1f2329;
-  --background: #171a1f;
-  --background-alt: #1b1f25;
-  --background-dark: #131519;
-  --text-normal: #d1d1d2;
-  --text-muted: #686a6d;
-  --text-focus: #fff;
-  --box-shadow: 0 4px 9px rgba(0 0 0 / 0.4);
-  --box-shadow-alt: 0 2px 5px rgba(0 0 0 / 0.3);
-  --scrollbar-colour: var(--background-light);
-  --edit-message-box: var(--background-light);
-  --message-background: var(--background-alt);
+  --background-primary: #808080;
+  --background-secondary: #595959;
+  --background-secondary-alt: #4d4d4d;
+  --background-tertiary: #333333;
   --background-accent: #3E82E5;
   --hover-accent: #458fff;
   --background-accent-secondary: #3064b3;
-
 }
 
 .theme-light {
- --background-light: #fff;
- --background-light-alt: #fff;
- --background: #edf2f7;
- --background-alt: #f7fafc;
- --background-dark: #e2e8f0;
- --text-normal: #2d3748;
- --text-muted: #718096;
- --text-focus: #1a202c;
- --font-weight-light: 400;
- --font-weight-normal: 500;
- --font-weight-semibold: 700;
- --font-weight-bold: 700;
- --box-shadow: 0 4px 9px rgba(0 0 0 / 0.2);
- --box-shadow-alt: 0 2px 5px rgba(0 0 0 / 0.1);
- --scrollbar-colour: rgba(0 0 0 / 0.2);
- --edit-message-box: var(--background-light);
- --message-background: var(--background-light);
+   --background-tertiary: #808080;
+   --background-secondary: #595959;
+   --background-secondary-alt: #4d4d4d;
+   --background-primary: #333333;
 }
    
 /* Wordmark Logo */
@@ -205,29 +186,29 @@ display: none
   z-index:1;
   position:relative;
 }
-.reduce-motion .userPopout-3XzG_A {
-	transform:translateZ(0);
+
+#app-mount .header-QKLPzZ .wrapper-3t9DeA[style*="width: 80px;"] {
+	margin-right: 0 !important
 }
-.userPopout-3XzG_A .wrapper-3t9DeA::after {
-	content: '';
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	pointer-events: none;
-	opacity: .5;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: var(--user-popout-position) center;
-	background-image: var(--user-background);
-	-webkit-mask-image: linear-gradient(#000, transparent);
+#app-mount .header-QKLPzZ .wrapper-3t9DeA[style*="width: 80px;"]::after {
+    content:'';
+    position:absolute;
+    top:var(--usrbg-modal-x-offset) !important;
+    left:var(--usrbg-modal-y-offset) !important;
+    width:var(--usrbg-modal-width);
+    height: var(--usrbg-modal-height);
+    opacity:.7;
+    pointer-events:none;
+    background: var(--user-background) center/cover no-repeat;
+    -webkit-mask: linear-gradient(#000000, #0000004f);
+    mask: linear-gradient(#000, transparent);
+}
+  
+.headerInfo-30uryT, .tabBarItem-1b8RUP, .activity-1ythUs { 
+	z-index:1; position:relative;
 }
 
-.userPopout-3XzG_A  .header-2BwW8b,
-.userPopout-3XzG_A  .scroller-2FKFPG,
-.userPopout-3XzG_A  .footer-1fjuF6 {
+.topSectionNormal-2-vo2m *, .topSectionSpotify-1lI0-P *, .topSectionPlaying-1J5E4n *, .topSectionStreaming-1Tpf5X *, .body-3ND3kc { 
 	z-index: 1;
 }
 
