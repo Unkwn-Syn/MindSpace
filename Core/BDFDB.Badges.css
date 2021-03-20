@@ -10,3 +10,13 @@
     }
 
 
+    /* user here */
+    [src*="insertID"] + .header-23xsNx > .headerText-3Uvj1Y > span:first-child::after,
+    .avatar-3EQepX[data-user-id="insertID"] + .headerInfo-30uryT > .nameTag-2IFDfL > .username-2b1r56::after,
+    [style*="insertID"] + .usernameFont-23TX-h::after {
+    content:  "";
+    border-radius: var(--border-radius-main);
+    position: relative;
+    left: 2px;
+    background: url(badge image url) center/80% no-repeat white;
+    }
