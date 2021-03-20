@@ -6,7 +6,18 @@
     border-radius: var(--border-radius-main);
     position: relative;
     left: 2px;
-    background: url(badge image url) center/80% no-repeat white;
+    background: url(https://cdn.discordapp.com/attachments/822555001724338206/822947126043869184/3942_DiscordStaff.png) center/80% no-repeat white;
+    }
+
+    /* Beta Testers */
+    [src*="691089753680117792"] + .header-23xsNx > .headerText-3Uvj1Y > span:first-child::after,
+    .avatar-3EQepX[data-user-id="691089753680117792"] + .headerInfo-30uryT > .nameTag-2IFDfL > .username-2b1r56::after,
+    [style*="691089753680117792"] + .usernameFont-23TX-h::after {
+    content:  "";
+    border-radius: var(--border-radius-main);
+    position: relative;
+    left: 2px;
+    background: url(https://cdn.discordapp.com/attachments/822555001724338206/822946621548396574/Beta_white.png) center/80% no-repeat white;
     }
 
 
