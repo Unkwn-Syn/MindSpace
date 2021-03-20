@@ -49,7 +49,7 @@ display: none
 	transform: translate(5px, 1px);
 	padding: 0 0 0 0;
 	content: url("https://i.imgur.com/pb6kYtd.png");
-	background-color: var(--background-primary);
+	background-color: var(--background-tertiary);
 	border-radius: 50%;
 }
 
