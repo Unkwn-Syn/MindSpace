@@ -13,22 +13,123 @@
  --bd-blue: #ce6837;
  --bd-blue-hover: #fe8a52;
  --bd-blue-active: #e37a22; 
+ --version: "0.1.0";
+ --channels-default: var(--text-normal);
+ --font: 'Source Sans';
+   }
+   
+   .theme-dark {
+ --background-light: #22262e;
+ --background-light-alt: #1f2329;
+ --background: #171a1f;
+ --background-alt: #1b1f25;
+ --background-dark: #131519;
+ --text-normal: #d1d1d2;
+ --text-muted: #686a6d;
+ --text-focus: #fff;
+ --font-weight-light: 300;
+ --font-weight-normal: 400;
+ --font-weight-semibold: 500;
+ --font-weight-bold: 700;
+ --box-shadow: 0 4px 9px rgba(0 0 0 / 0.4);
+ --box-shadow-alt: 0 2px 5px rgba(0 0 0 / 0.3);
+ --scrollbar-colour: var(--background-light);
+ --edit-message-box: var(--background-light);
+ --message-background: var(--background-alt);
+  }
+   
+  .theme-light {
+ --background-light: #fff;
+ --background-light-alt: #fff;
+ --background: #edf2f7;
+ --background-alt: #f7fafc;
+ --background-dark: #e2e8f0;
+ --text-normal: #2d3748;
+ --text-muted: #718096;
+ --text-focus: #1a202c;
+ --font-weight-light: 400;
+ --font-weight-normal: 500;
+ --font-weight-semibold: 700;
+ --font-weight-bold: 700;
+ --box-shadow: 0 4px 9px rgba(0 0 0 / 0.2);
+ --box-shadow-alt: 0 2px 5px rgba(0 0 0 / 0.1);
+ --scrollbar-colour: rgba(0 0 0 / 0.2);
+ --edit-message-box: var(--background-light);
+ --message-background: var(--background-light);
+  }
+   
+/* Settings */
+
+.info-1VyQPT .colorMuted-HdFt4q:first-child:before {
+ content: "MindSpace Dev " var(--version) " [ALPHA]";
+ display: block;
+ color: white;
+  }
+
+.sidebarRegionScroller-3MXcoP {
+ margin-right: 640px;
 }
 
-.theme-dark {
-  --background-primary: #808080;
-  --background-secondary: #595959;
-  --background-secondary-alt: #4d4d4d;
-  --background-tertiary: #333333;
-  --background-accent: #3E82E5;
-  --hover-accent: #458fff;
-  --background-accent-secondary: #3064b3;
+.sidebar-CFHs9e {
+ margin-right: 7px;
 }
 
-.theme-light {
-   --background-tertiary: #808080;
-   --background-secondary: #595959;
-   --background-secondary-alt: #4d4d4d;
-   --background-primary: #333333;
+.contentRegion-3nDuYy {
+ offset-position: left 40px;
 }
 
+
+/* WaterMark */
+.wordmark-2iDDfm > svg {display: none}
+.wordmark-2iDDfm {
+  width: 23px;
+  height: 23px;
+  content: url("https://i.imgur.com/osGkzgu.png");
+}
+.wordmarkWindows-1v0lYD {
+  padding: 0px 0px 0px;
+  color: #0000;
+}
+
+
+/* Main */
+.scroller-2TZvBN {
+ background: #252525;
+}
+
+.bg-h5JY_x {
+ background: var(--background-dark);
+  }
+
+  .scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar,
+  .scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar-corner,
+  .scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar-thumb,
+  .scrollerThemed-2oenus.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar-track {
+ display: none !important;
+}
+
+.scroller-1JbKMe,
+.scroller-305q3I {
+  background: transparent;
+}
+
+.guilds-1SWlCJ .scroller-2TZvBN::-webkit-scrollbar {
+ display: none;
+}
+
+.content-1x5b-n {
+ margin-left: 0;
+ border-radius: 0 var(--border-radius) var(--border-radius) 0;
+ padding-left: 16px;
+}
+
+.message-2qnXI6 .scrollableContainer-2NUZem {
+ background: var(--edit-message-box);
+ box-shadow: none;
+}
+
+
+/* Status */
+
+.activity-1ythUs .activityHeader-1PExlk {font-size:0}
+.activity-1ythUs .activityHeader-1PExlk:before {font-size:12px; content:"Status"}
