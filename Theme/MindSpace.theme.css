@@ -425,12 +425,13 @@ border-bottom-left-radius: 10px;
     height: 100%;
     width: calc(100% - var(--message-padding));
     border-left: 2px solid rgba(var(--discord-yellow)/1);
-    background: var(--background-mentioned);
+    background: transparent;
     pointer-events: none;
 }
-  #app-mount .cozy-3raOZG.mentioned-xhSam7 .container-1ov-mD {
+  #app-mount .cozy-3raOZG.mentioned-xhSam7, .container-1ov-mD {
     position: relative;
-  }
+}
+
 #app-mount .cozy-3raOZG.mentioned-xhSam7 .container-1ov-mD:before {
     content: "";
     position: absolute;
