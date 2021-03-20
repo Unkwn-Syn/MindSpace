@@ -179,6 +179,7 @@ display: none
 .content-3YMskv {
     border-radius: 0px;
     height: 5px;
+    background: transparent;
 }
 
 .card-4s8auQ {
@@ -488,7 +489,7 @@ display: none
 #app-mount .message-2qnXI6 {
     background: var(--background-alt);
     border-radius: 5px;
-    width: 1400px;
+    width: 1160px;
 }
 
 .theme-light .menu-3sdvDG {
@@ -580,9 +581,59 @@ display: none
  margin-top: 2px;
 }
 
+.contentWrapper-SvZHNd {
+    background: var(--background-alt);
+}
+
+.wrapper-1-Fsb8 {
+    background: var(--background-dark);
+    border-radius: 0px;
+}
+
+.scroller-3gAZLs {
+    background: var(--background-dark);
+}
+
+.unicodeShortcut-15J8Ck {
+    background: var(--background-alt);
+}
+
+.inspector-S2gM3e {
+    background: var(--background-alt);
+}
+
+.container-2jxBbw {
+    background: var(--background-dark);
+}
+
+.content-1YdlXf {
+    background: var(--background-dark);
+}
+
+.connectionHeader-2MDqhu {
+    background: var(--background-dark);
+}
+
+.connectionOptionsWrapper-3KIj1Z {
+    background: var(--background-alt);
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.accountList-33MS45 {
+    background: var(--background-alt);
+}
+
 .message-2qnXI6 .scrollableContainer-2NUZem {
  background: var(--edit-message-box);
  box-shadow: none;
+}
+
+/* CodeBlock Support */
+.scrollbarGhostHairline-1mSOM1 {
+    position: relative;
+    width: 1130px;
+    background: var(--background-alt);
 }
 
 /* Side Fixs */
@@ -619,10 +670,6 @@ display: none
     margin-left: 2px;
     }
 
-/* Blur */
-.backdrop-1wrmKB {
-  backdrop-filter: blur(7px);
-}
 
 /* User Backgrounds */
 .header-QKLPzZ .wrapper-3t9DeA::before {
