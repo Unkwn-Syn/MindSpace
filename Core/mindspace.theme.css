@@ -277,3 +277,13 @@ display: none
 
 .toolbar-1t6TWx svg:hover path {
 	color: var(--hover-accent);
+}
+
+/* Pill Colors */
+.item-2hkk8m {
+	background-color: var(--background-accent-secondary);
+}
+
+.unread-2lAfLh {
+	background-color: var(--background-accent-secondary);
+}
