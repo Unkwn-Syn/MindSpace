@@ -1,3 +1,9 @@
+:root {
+ --bd-blue: #ce6837;
+ --bd-blue-hover: #fe8a52;
+ --bd-blue-active: #e37a22; 
+}
+
 .theme-dark {
   --background-primary: #808080;
   --background-secondary: #595959;
@@ -7,3 +13,11 @@
   --hover-accent: #458fff;
   --background-accent-secondary: #3064b3;
 }
+
+.theme-light {
+   --background-tertiary: #808080;
+   --background-secondary: #595959;
+   --background-secondary-alt: #4d4d4d;
+   --background-primary: #333333;
+}
+
