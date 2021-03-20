@@ -241,15 +241,11 @@ display: none
     background: var(--background);
 }
 
-.content-3YMskv, .membersGroup-v9BXpm {
-    background: var(--background);
-}
-
 .mention {
     background: transparent;
 }
 
-.members-1998pB {
+.members-1998pB, .members-1998pB>div {
     background: var(--background);
 }
 
