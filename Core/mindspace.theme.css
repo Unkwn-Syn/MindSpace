@@ -7,58 +7,29 @@
 */
 
 /* Imports */
-@import url("https://unkwn-syn.github.io/MindSpace/Core/Modals.css");
-@import url("https://unkwn-syn.github.io/MindSpace/Core/Popouts.css");
-
 
 :root {
  --bd-blue: #ce6837;
  --bd-blue-hover: #fe8a52;
  --bd-blue-active: #e37a22; 
- --version: "0.1.0";
- --channels-default: var(--text-normal);
- --font: 'Source Sans';
-   }
-   
-   .theme-dark {
- --background-light: #22262e;
- --background-light-alt: #1f2329;
- --background: #171a1f;
- --background-alt: #1b1f25;
- --background-dark: #131519;
- --text-normal: #d1d1d2;
- --text-muted: #686a6d;
- --text-focus: #fff;
- --font-weight-light: 300;
- --font-weight-normal: 400;
- --font-weight-semibold: 500;
- --font-weight-bold: 700;
- --box-shadow: 0 4px 9px rgba(0 0 0 / 0.4);
- --box-shadow-alt: 0 2px 5px rgba(0 0 0 / 0.3);
- --scrollbar-colour: var(--background-light);
- --edit-message-box: var(--background-light);
- --message-background: var(--background-alt);
-  }
-   
-  .theme-light {
- --background-light: #fff;
- --background-light-alt: #fff;
- --background: #edf2f7;
- --background-alt: #f7fafc;
- --background-dark: #e2e8f0;
- --text-normal: #2d3748;
- --text-muted: #718096;
- --text-focus: #1a202c;
- --font-weight-light: 400;
- --font-weight-normal: 500;
- --font-weight-semibold: 700;
- --font-weight-bold: 700;
- --box-shadow: 0 4px 9px rgba(0 0 0 / 0.2);
- --box-shadow-alt: 0 2px 5px rgba(0 0 0 / 0.1);
- --scrollbar-colour: rgba(0 0 0 / 0.2);
- --edit-message-box: var(--background-light);
- --message-background: var(--background-light);
-  }
+}
+
+.theme-dark {
+  --background-primary: #808080;
+  --background-secondary: #595959;
+  --background-secondary-alt: #4d4d4d;
+  --background-tertiary: #333333;
+  --background-accent: #3E82E5;
+  --hover-accent: #458fff;
+  --background-accent-secondary: #3064b3;
+}
+
+.theme-light {
+   --background-tertiary: #808080;
+   --background-secondary: #595959;
+   --background-secondary-alt: #4d4d4d;
+   --background-primary: #333333;
+}
    
 /* Wordmark Logo */
 
@@ -234,3 +205,19 @@ display: none
 .userPopout-3XzG_A  .footer-1fjuF6 {
 	z-index: 1;
 }
+
+/* Channeltabs Support */
+.channelTabs-closeTab {
+    line-height: 12px !important; font-size: 14px; background: var(--background-accent-secondary); }
+
+    .channelTabs-tab.channelTabs-selected .channelTabs-closeTab { background: var(--background-accent); }
+
+    .channelTabs-tab.channelTabs-selected .channelTabs-closeTab:hover { background: var(--hover-accent); }
+
+    .channelTabs-tabContainer { background: var(--background-tertiary) !important; }
+ 
+    .channelTabs-newTab { background: var(--background-accent-secondary); }
+
+    .channelTabs-newTab:hover { background: var(--hover-accent); }
+
+    .channelTabs-closeTab:hover { background: var(--hover-accent); }
