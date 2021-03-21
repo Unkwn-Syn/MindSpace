@@ -1,8 +1,4 @@
 <p align="center">
-<img src = "https://cdn.discordapp.com/icons/822554959475900458/9e3f3d3481117985f05a73cfc401672e.png?size=2096">
-</p>
-
-<p align="center">
     <a href="https://discord.gg/ygFhn2GUKP" alt="Get Support">
         <img src="https://img.shields.io/discord/822554959475900458.svg?label=Support&logo=discord&style=flat-square&logoColor=%23ffffff&colorB=%237289DA" /></a>
     <a href="https://github.com/Unkwn-Syn/MindSpace/commits/main" alt="Latest Commit">
@@ -42,10 +38,3 @@ Any issues & bugs can be explained by:
 In the appearance settings make sure **Dark** is selected.
 
 This theme is **NOT** minimal mode compatible.
-
-## Acknowledgements
-
-* Thanks to [mpikou](https://github.com/mpikoul) for creating the base theme
-
-## Images
-
