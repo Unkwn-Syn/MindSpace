@@ -56,7 +56,7 @@
   background-repeat: no-repeat;
   pointer-events: none;
   border-radius: var(--roundness, var(--user-roundness, 50px)) !important;
-  z-index: -1;
+  z-index: 99999;
 }
 
 .contents-2mQqc9 .avatar-1BDn8e[src*="785035260852830219"]:hover + h2::before{
