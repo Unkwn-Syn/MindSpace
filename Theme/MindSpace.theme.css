@@ -10,7 +10,6 @@
 @import url("https://unkwn-syn.github.io/MindSpace/Core/Modals.css");
 @import url("https://unkwn-syn.github.io/MindSpace/Core/Popouts.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
-@import url("https://unkwn-syn.github.io/MindSpace/Core/BDFDB.Badges.css");
 
 :root {
  --bd-blue: #ce6837;
@@ -917,14 +916,6 @@ display: none
 
 .activity-1ythUs .activityHeader-1PExlk {font-size:0}
 .activity-1ythUs .activityHeader-1PExlk:before {font-size:12px; content:"Status"}
-
-/* BDFDB Badges Snippet*/
-    .headerText-3Uvj1Y > span:first-child::after,
-    .usernameFont-23TX-h::after,
-    .name-uJV0GL > .overflow-WK9Ogt::after {
-    padding: 0 10px 0 10px;
-    margin-left: 2px;
-    }
 
 
 /* User Backgrounds */
