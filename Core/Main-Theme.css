@@ -273,6 +273,50 @@ display: none
     padding: 0 !important;
 }
 
+#app-mount .listing-2nUQ4d {
+    background: var(--background-dark);
+}
+
+#app-mount .bodySection-jqkkIP {
+    background: var(--background-alt);
+    box-shadow: var(--box-shadow);
+}
+
+#app-mount .divider-JfaTT5.hasContent-1cNJDh .content-1o0f9g {
+    background: var(--background-dark);
+    margin-top: var(--message-spacing);
+    margin-bottom: var(--message-spacing);
+    font-weight: var(--font-weight-semibold);
+}
+
+#app-mount .divider-JfaTT5.hasContent-1cNJDh {
+    background: var(--background-light);
+    margin-top: var(--message-spacing);
+    margin-bottom: var(--message-spacing);
+}
+
+#app-mount .scroller-1d5FgU {
+    background: var(--background-dark);
+}
+
+#app-mount .card-3DjzTQ {
+    background: var(--background);
+    box-shadow: var(--box-shadow);
+}
+
+#app-mount .scroller-3GIiMh{
+    background: var(--background-dark);
+}
+
+#app-mount .colorHeaderPrimary-26Jzh- {
+    background: transparent;
+}
+
+#app-mount .message-1Ng5AR {
+    background: var(--background-alt);
+    box-shadow: var(--box-shadow-alt);
+}
+
 #app-mount .userPopout-3XzG_A .body-3iLsc4 {
     background: var(--background-alt);
 }
@@ -290,6 +334,12 @@ display: none
 #app-mount .button-1-5Aqk {
     position: relative;
     right: 10px;
+}
+
+#app-mount .bar-30k2ka {
+    position: relative;
+    width: auto;
+    color: white;
 }
 
 #app-mount .messagesPopoutWrap-1MQ1bW {
@@ -459,6 +509,10 @@ display: none
   background: transparent;
 }
 
+#app-mount .header-2mZ9Ov, .titleContainer-2CXtJo  {
+    background: var(--background);
+}
+
 .container-1taM1r {
     background: var(--background-alt);
 }
@@ -512,12 +566,6 @@ display: none
 #app-mount .cozy-3raOZG .contents-2mQqc9,
 #app-mount .cozy-3raOZG .container-1ov-mD {
   margin-left: calc(40px + (var(--message-padding) * 2));
-}
-
-#app-mount .cozy-3raOZG .avatar-1BDn8e {
-    left: var(--message-padding);
-    top: var(--message-padding);
-    margin-top: 0;
 }
 
 #app-mount .cozy-3raOZG + .cozy-3raOZG:not(.groupStart-23k01U) {
@@ -605,12 +653,6 @@ display: none
 
 #app-mount .wrapper-1F5TKx .attachmentContainer-2BK1nK {
     padding-left: calc(40px + (var(--message-padding) * 2));
-}
-
-#app-mount .wrapper-1F5TKx .avatar-1BDn8e {
-    left: var(--message-padding);
-    top: var(--message-padding);
-    margin-top: 0;
 }
 
 #app-mount .cozy-3raOZG.groupStart-23k01U {
@@ -884,6 +926,14 @@ display: none
 
 .activity-1ythUs .activityHeader-1PExlk {font-size:0}
 .activity-1ythUs .activityHeader-1PExlk:before {font-size:12px; content:"Status"}
+
+/* BDFDB Badges Snippet*/
+    .headerText-3Uvj1Y > span:first-child::after,
+    .usernameFont-23TX-h::after,
+    .name-uJV0GL > .overflow-WK9Ogt::after {
+    padding: 0 10px 0 10px;
+    margin-left: 2px;
+    }
 
 
 /* User Backgrounds */
