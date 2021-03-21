@@ -39,6 +39,11 @@ In the appearance settings make sure **Dark** is selected.
 
 This theme is **NOT** minimal mode compatible.
 
+## Acknowledgements
+
+* Thanks to [Tropical](https://github.com/discord-Custom-Covers/usrbg/) for usrbg
+
+* Thanks to [Monstrum](https://github.com/monstrousdev) for custom tooltips
 
 ## Images
 
