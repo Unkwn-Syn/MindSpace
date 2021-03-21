@@ -30,7 +30,7 @@
   font-family: BMTicons;
   pointer-events: none;
   display: inline-block !important;
-  z-index: 999;
+  z-index: 2147483646;
 }
 
 .avatar-1BDn8e:hover + h2::after {
@@ -42,7 +42,7 @@
   border-radius: 3px;
   font-size: 13px;
   font-weight: 600;
-  z-index: 3000000;
+  z-index: 2147483647;
   display: block;
   position: absolute;
   pointer-events: none;
