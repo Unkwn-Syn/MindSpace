@@ -1,0 +1,99 @@
+/* ======= SPECIAL TAGS ========= */
+/* badges */
+.avatar-1BDn8e[src*="Example"] + h2::after,
+.avatar-1BDn8e[src*="785035260852830219"] + h2::after{
+  content: '';
+  color: transparent;
+  height: 15px;
+  width: 15px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: -29px;
+  left: -22px;
+  pointer-events: none;
+  filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
+}
+
+
+/* on hover */
+.avatar-1BDn8e[src*="Example"]:hover + h2::after,
+.avatar-1BDn8e[src*="785035260852830219"]:hover + h2::after{
+  color: white;
+  transform: none;
+  background-size: cover;
+  background-position: center;
+  padding: 3px 10px !important;
+  height: auto;
+  width: fit-content !important;
+  box-sizing: border-box !important;
+  white-space: nowrap !important;
+  bottom: -31px !important;
+  font-weight: 700;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  filter: none;
+  display: block !important;
+  background-color: transparent;
+  box-shadow: none !important;
+}
+
+
+
+
+
+
+/* My friends and my borders/glow */
+  /* mine */
+.contents-2mQqc9 .avatar-1BDn8e[src*="785035260852830219"] + h2::before{
+  content: '';
+  position: absolute;
+  height: 44px;
+  width: 44px;
+  top: 0px;
+  left: -58px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  border-radius: var(--roundness, var(--user-roundness, 50px)) !important;
+  z-index: -1;
+}
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="785035260852830219"]:hover + h2::before{
+  border-radius: var(--roundness, var(--user-roundness, 50px)) !important;
+}
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="785035260852830219"] + h2::before {
+  background-image: url(https://i.gifer.com/fyD3.gif);
+  box-shadow: 0 0 5px rgba(246, 255, 192, 0.658);
+}
+
+
+/* ===== FRIENDS ===== */
+/* mine */
+.avatar-1BDn8e[src*="785035260852830219"] + h2::after {
+  background-image: url(https://monstrousdev.github.io/themes/assets/svgs/demon-outline.svg);
+  transition: filter .2s ease-in-out;
+  transform: scale(1.1);
+  height: 15px !important;
+  width: 15px !important;
+}
+
+.avatar-1BDn8e[src*="785035260852830219"]:hover + h2::after {
+  filter: drop-shadow(0 0 3px #fddfaa);
+}
+
+
+/* ============== DONATOR/DEV TAGS ============== */
+.avatar-1BDn8e[src*="Example"]:hover + h2::after {
+  background-image: url(https://i.imgur.com/pQJsmHA.gif);
+  color: var(--main-color);
+  --main-color: #007FFF;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  content: "Trent";
+}
+
+.avatar-1BDn8e[src*="Example"] + h2::after {
+  background-image: url(https://monstrousdev.github.io/themes/assets/svgs/moon.svg);
+  transform: scale(.75);
+}
