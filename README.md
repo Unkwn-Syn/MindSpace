@@ -5,7 +5,7 @@
      <img src="https://img.shields.io/github/last-commit/unkwn-syn/MindSpace.svg?logo=GitHub&style=flat-square" /></a>
 </p>
 
-MindSpace is a highly customizable theme for Discord (with [BetterDiscord](https://github.com/rauenzi/BetterDiscordApp/releases/latest)) Every part of the theme is customizable.
+MindSpace is a highly customizable theme for Discord (with [BetterDiscord](https://github.com/rauenzi/BetterDiscordApp/releases/latest))
 
 ## Installation
 
