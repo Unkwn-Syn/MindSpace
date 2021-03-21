@@ -38,3 +38,10 @@ Any issues & bugs can be explained by:
 In the appearance settings make sure **Dark** is selected.
 
 This theme is **NOT** minimal mode compatible.
+
+
+## Images
+
+<img src="https://file.coffee/u/9oKuHal_D-.png">
+
+<img src="https://file.coffee/u/V1K5UWU4ou.gif">
