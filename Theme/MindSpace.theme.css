@@ -482,17 +482,12 @@ display: none
 }
 
 .actionButtons-14eAc_ {
-    position: relative;
     display: none;
 }
 
 .container-1giJp5:hover .actionButtons-14eAc_ {
-    position: relative;
-    display: contents;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
 }
-
 .scroller-1JbKMe, .scroller-305q3I {
   background: transparent;
 }
