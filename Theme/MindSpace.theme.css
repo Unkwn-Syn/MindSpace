@@ -275,6 +275,201 @@ display: none
     background: var(--background);
 }
 
+#app-mount .quickswitcher-3JagVE {
+    background: var(--background);
+}
+
+#app-mount .emptyState-2i1-FW {
+    background: transparent;
+}
+
+#app-mount .sectionHeader-20RGqu {
+    background: var(--background);
+    box-shadow: var(--box-shadow);
+    padding: 0 24px;
+}
+
+#app-mount .root-SR8cQa .topSectionPlaying-1J5E4n {
+    background: var(--background-alt);
+}
+
+#app-mount .root-SR8cQa .body-3ND3kc {
+    background: var(--background);
+    height: 320px;
+}
+
+#app-mount .userPopout-3XzG_A .footer-1fjuF6 {
+    background: var(--background-alt);
+    padding-bottom: 0;
+}
+#app-mount .layer-3QrUeG[aria-label*=_SETTINGS] .children-rWhLdy .children-rWhLdy .flex-1xMQg5.flex-1O1GKY {
+    padding: 0 !important;
+}
+
+#app-mount .userPopout-3XzG_A .body-3iLsc4 {
+    background: var(--background-alt);
+}
+
+#app-mount .scroller-tlc3kG {
+    background: var(--background-light-alt);
+}
+
+#app-mount .channelHeader-3Gd2xq {
+    background: var(--background-dark);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#app-mount .button-1-5Aqk {
+    position: relative;
+    right: 10px;
+}
+
+#app-mount .messagesPopoutWrap-1MQ1bW {
+    background: var(--background-light);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+}
+
+#app-mount .header-ykumBX, .footer-1kmXd4  {
+    background: var(--background-alt);
+    box-shadow: var(--box-shadow);
+    z-index: 2;
+}
+
+#app-mount .gameUpdates-2GPqBU {
+    background: var(--background-dark);
+    box-shadow: var(--box-shadow);
+}
+
+#app-mount .container-19hC9u {
+    background: var(--background);
+}
+
+#app-mount .row-1Lmx44 {
+    background: var(--background-light);
+    margin: var(--message-spacing);
+    padding: var(--message-padding);
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+}
+
+#app-mount .row-1Lmx44:hover {
+    background: var(--background-light-alt);
+    margin: var(--message-spacing);
+    padding: var(--message-padding);
+    border-radius: 5px;
+    box-shadow: var(--box-shadow-alt);
+}
+
+#app-mount .scroller-2XE8rp {
+    background: var(--background);
+}
+
+#app-mount .rowWrapper-2fB6P0 {
+    background: var(--background);
+}
+
+#app-mount .messages-3G3erD {
+    background: var(--background);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+#app-mount .scroller-hUf6zQ {
+    background: var(--background);
+}
+
+#app-mount .popout-103y-5 .header-1TKi98 {
+    background: var(--background-dark);
+}
+
+
+
+#app-mount .popout-103y-5 .footer-1eyGBa  {
+    background: var(--background-dark);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#app-mount .inner-3ErfOT {
+    background: var(--background-light);
+}
+
+#app-mount .bd-addon-modal .header-1TKi98 {
+    background: var(--background);
+}
+#app-mount .bd-addon-modal .footer-2gL1pp {
+    background: var(--background);
+}
+
+#app-mount .root-1gCeng {
+    background: var(--background);
+}
+
+#app-mount .button-2X8t6P {
+    z-index: 99;
+}
+
+#app-mount .upsellContainer-L9xv7w {
+    background: var(--background-dark);
+}
+
+#app-mount .upsellFooter-ZYsio_  {
+    background: var(--background-alt);
+}
+
+
+#app-mount .scroller-9moviB {
+    background: var(--background);
+}
+
+#app-mount .header-QKLPzZ  .discriminator-xUhQkU {
+    position: relative;
+    left: 10px;
+}
+
+#app-mount .resultsGroup-r_nuzN {
+    background:var(--background-alt);
+}
+
+#app-mount .option-96V44q:after {
+    background: linear-gradient(90deg, transparent, var(--background-alt));
+}
+  #app-mount .option-96V44q.selected-rZcOL- {
+    background: var(--background-alt);
+}
+
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN {
+    background: var(--background);
+}
+
+#app-mount .container-2fRDfG {
+    background: var(--background-dark);
+}
+
+#app-mount .inputField-aNPXsv {
+    background: transparent;
+}
+
+#app-mount .addGamePopout-2RY8Ju {
+    background: var(--background-dark);
+}
+
+#app-mount .input-2VB9rf {
+    background: var(--background-light);
+    box-shadow: var(--box-shadow);
+    padding: 0 24px;
+}
+
+#app-mount .scroller-zPkAnE {
+    background: transparent;
+}
+
+#app-mount .peopleColumn-29fq28 {
+    background: var(--background);
+}
+
 .scrollableContainer-2NUZem {
     background: var(--background-alt);
     box-shadow: var(--box-shadow);
@@ -561,6 +756,77 @@ display: none
     border-radius: 7px;
 }
 
+#app-mount .uploadModal-2ifh8j .footer-3mqk7D {
+    background: var(--background);
+}
+
+#app-mount .uploadModal-2ifh8j {
+    background: var(--background);
+}
+
+#app-mount .avatar-3EQepX {
+    position: relative;
+    right: 9px;
+}
+
+#app-mount .cozy-3raOZG .container-1ov-mD {
+    margin-left: calc(40px + (var(--message-padding) * 2));
+}
+
+#app-mount .cozy-3raOZG.mentioned-xhSam7 .container-1ov-mD {
+    position: relative;
+}
+
+#app-mount .root-SR8cQa .note-QfFU8y {
+    margin: 0;
+    box-shadow: var(--box-shadow-alt);
+}
+
+#app-mount .content-1LAB8Z {
+    background: var(--background);
+    border-radius: 0px;
+}
+
+#app-mount .autocomplete-1vrmpx {
+    background: var(--background-alt);
+}
+
+#app-mount .autocompleteRowVertical-q1K4ky:hover .base-1pYU8j {
+    background: var(--background-light);
+}
+
+#app-mount .popoutContainer-1MXdqN .emojiSection-3Fb9ix {
+    background: var(--background);
+}
+
+#app-mount .guildSection-1EoFKd {
+    background: var(--background-light);
+}
+
+#app-mount .flex-1xMQg5 {
+    background: transparent;
+}
+
+
+#app-mount .attachment-33OFj0,
+#app-mount .wrapperAudio-1jDe0Q {
+  background: var(--background-dark);
+  border-radius: var(--border-radius);
+  border: none;
+}
+  #app-mount .cozy-3raOZG.mentioned-xhSam7 .container-1ov-mD:before {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: -5px;
+    height: 100%;
+    width: calc(100% - var(--message-padding) + 5px);
+    border-left: 2px solid rgba(var(--discord-yellow)/1);
+    background: var(--background-mentioned);
+    border-radius: 0 0 var(--border-radius) 0;
+}
+
 .userInfo-2zN2z8 {
     position: relative;
     left: 10px;
@@ -715,6 +981,10 @@ display: none
 
 .topSectionNormal-2-vo2m *, .topSectionSpotify-1lI0-P *, .topSectionPlaying-1J5E4n *, .topSectionStreaming-1Tpf5X *, .body-3ND3kc { 
 	z-index: 1;
+}
+
+#app-mount .root-SR8cQa .topSectionNormal-2-vo2m {
+    background: var(--background-alt);
 }
 
 /* Channeltabs Support */
