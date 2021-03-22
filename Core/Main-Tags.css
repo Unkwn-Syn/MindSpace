@@ -65,7 +65,7 @@
 .avatar-1BDn8e[src*="Example"] + h2::after,
 .avatar-1BDn8e[src*="785035260852830219"] + h2::after{
   content: "";
-  opacity: 1;
+  opacity: 0;
 }
 
 
@@ -73,7 +73,7 @@
 .avatar-1BDn8e[src*="785035260852830219"]:hover + h2::after {
   content: 'Owner';
   --main-color: #51007a;
-  opacity: 1;
+  opacity: 0;
 }
 
 
