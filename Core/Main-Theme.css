@@ -219,11 +219,14 @@ display: none
 #app-mount .cozy-3raOZG .repliedMessage-VokQwo {
     margin-left: calc(var(--message-padding) + 56px);
 }
-  #app-mount .cozy-3raOZG .repliedMessage-VokQwo + .contents-2mQqc9 .avatar-1BDn8e, #app-mount .cozy-3raOZG .repliedMessage-VokQwo + .contents-2mQqc9 img {
-    top: 32px;
-}
-  #app-mount .cozy-3raOZG .repliedMessage-VokQwo:before {
+
+#app-mount .cozy-3raOZG .repliedMessage-VokQwo:before {
     border-color: var(--text-muted);
+}
+
+#app-mount .avatar-1BDn8e {
+    margin-left: -5px;
+    z-index: 1;
 }
 
 .scroller-2TZvBN {
@@ -565,7 +568,7 @@ display: none
 
 #app-mount .cozy-3raOZG .contents-2mQqc9,
 #app-mount .cozy-3raOZG .container-1ov-mD {
-  margin-left: calc(40px + (var(--message-padding) * 2));
+  margin-left: calc(40px + (var(--message-padding) * 2.5));
 }
 
 #app-mount .cozy-3raOZG + .cozy-3raOZG:not(.groupStart-23k01U) {
@@ -683,7 +686,6 @@ display: none
 #app-mount .message-2qnXI6 {
     background: var(--background-alt);
     border-radius: 5px;
-    width: 1160px;
 }
 
 .theme-light .menu-3sdvDG {
@@ -990,6 +992,7 @@ display: none
 #app-mount .root-SR8cQa .topSectionNormal-2-vo2m {
     background: var(--background-alt);
 }
+
 
 /* Channeltabs Support */
 .channelTabs-closeTab {
