@@ -25,7 +25,7 @@
  --background-modifier-hover: var(--background-alt);
  --background-modifier-active: var(--background-light);
  --channels-default: var(--text-normal);
- --version: "0.1.0"
+ --version: "0.1.0";
  --accent: 50, 131, 207;
  --message-padding: 10px; /* Spacing in the messages. MUST END IN px | DEFAULT: 10px */
  --message-spacing: 10px; /* Spacing around the messages. MUST END IN px | DEFAULT: 10px */
