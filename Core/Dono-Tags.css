@@ -64,7 +64,7 @@
 }
 
 .contents-2mQqc9 .avatar-1BDn8e[src*="785035260852830219"] + h2::before {
-  background-image: url("https://cdn.discordapp.com/avatars/785035260852830219/a_e3cacb2e8c2a554e16e7fb6dc32d1d26.gif?size=2048");
+  background-image: url(https://i.gifer.com/fyD3.gif);
   box-shadow: 0 0 5px rgba(246, 255, 192, 0.658);
 }
 
@@ -86,11 +86,11 @@
 
 /* ============== DONATOR/DEV TAGS ============== */
 .avatar-1BDn8e[src*="Example"]:hover + h2::after {
-  background-image: url("Example");
+  background-image: url(https://i.imgur.com/pQJsmHA.gif);
   color: var(--main-color);
   --main-color: #007FFF;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-  content: "Example";
+  content: "Trent";
 }
 
 .avatar-1BDn8e[src*="Example"] + h2::after {
