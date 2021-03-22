@@ -63,8 +63,8 @@
   border-radius: var(--roundness, var(--user-roundness, 50px)) !important;
 }
 
-.contents-2mQqc9 .avatar-1BDn8e[src*="785035260852830219"] + h2::before {
-  background-image: url(https://i.gifer.com/fyD3.gif);
+.contents-2mQqc9 .avatar-1BDn8e[src*="Example"] + h2::before {
+  background-image: url("Example");
   box-shadow: 0 0 5px rgba(246, 255, 192, 0.658);
 }
 
@@ -86,11 +86,11 @@
 
 /* ============== DONATOR/DEV TAGS ============== */
 .avatar-1BDn8e[src*="Example"]:hover + h2::after {
-  background-image: url(https://i.imgur.com/pQJsmHA.gif);
+  background-image: url("Example");
   color: var(--main-color);
   --main-color: #007FFF;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-  content: "Trent";
+  content: "Example";
 }
 
 .avatar-1BDn8e[src*="Example"] + h2::after {
