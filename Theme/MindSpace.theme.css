@@ -1,7 +1,8 @@
 /**
- * @name MindSpace Dev
- * @author Pwned Syn & mpikoul
- * @version 0.1.0
+ * @name MindSpace
+ * @author Pwned Syn
+ * @authorId 785035260852830219
+ * @version 1.0.2
  * @description Dev Version Of MindSpace
  * @source https://github.com/Unkwn-Syn/MindSpace
 */
@@ -25,7 +26,6 @@
  --background-modifier-hover: var(--background-alt);
  --background-modifier-active: var(--background-light);
  --channels-default: var(--text-normal);
- --version: "0.1.0";
  --accent: 50, 131, 207;
  --message-padding: 10px; /* Spacing in the messages. MUST END IN px | DEFAULT: 10px */
  --message-spacing: 10px; /* Spacing around the messages. MUST END IN px | DEFAULT: 10px */
