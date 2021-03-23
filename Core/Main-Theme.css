@@ -55,7 +55,7 @@ display: none
 	transform: translate(5px, 1px);
 	padding: 0 0 0 0;
 	content: url("https://i.imgur.com/pb6kYtd.png");
-	background-color: var(--background-tertiary);
+	background-color: var(--background-dark);
 	border-radius: 50%;
 }
 
@@ -125,9 +125,13 @@ display: none
 }
 
 #app-mount .info-1VyQPT .colorMuted-HdFt4q:first-child:before {
-    content: "MindSpace Dev " var(--version) " [ALPHA]";
+    content: "MindSpace Dev [ALPHA]";
     display: block;
     color: white;
+}
+
+#app-mount .embedWrapper-lXpS3L {
+    background: var(--background);
 }
 
 .bd-changelog-button {
@@ -298,6 +302,42 @@ display: none
     margin-bottom: var(--message-spacing);
 }
 
+#app-mount .inputWrapper-31_8H8 {
+    background: var(--background-light);
+    color: var(--text-muted);
+    border-radius: var(--border-radius);
+    margin-top: var(--message-spacing);
+    margin-bottom: var(--message-spacing);
+}
+
+#app-mount .colorHeaderPrimary-26Jzh-, .colorHeaderSecondary-3Sp3Ft{
+    color: white;
+}
+
+#app-mount .container-UC8Ug1 {
+    background: var(--background-light);
+}
+
+#app-mount .container-UC8Ug1:hover {
+    background: var(--background-light-alt);
+}
+
+#app-mount .colorStandard-2KCXvj {
+    color: var(--text-muted);
+}
+
+#app-mount .colorStandard-2KCXvj {
+    color: white;
+}
+
+#app-mount .flex-1xMQg5 .colorStandard-2KCXvj, .footerButton-ayFTfX {
+    color: white;
+}
+
+#app-mount .sampleLink-2NLvZg {
+    color: white;
+}
+
 #app-mount .scroller-1d5FgU {
     background: var(--background-dark);
 }
@@ -322,6 +362,9 @@ display: none
 
 #app-mount .userPopout-3XzG_A .body-3iLsc4 {
     background: var(--background-alt);
+}
+#app-mount .scroller-11cdZM {
+    background: var(--background);
 }
 
 #app-mount .scroller-tlc3kG {
@@ -548,8 +591,6 @@ display: none
 
 #app-mount .privateChannels-1nO12o {
     background: var(--background-alt);
-    position: relative;
-    left: 10px;
 }
 
 #app-mount .sidebar-2K8pFh {
